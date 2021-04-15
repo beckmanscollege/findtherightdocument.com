@@ -707,6 +707,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
+
 #webring img {
   width: 50px;
 }
@@ -714,7 +715,7 @@ body {
 
 
 #baramobil { 
- display: none:
+ display: none;
 }
 
 #baramobil p {
