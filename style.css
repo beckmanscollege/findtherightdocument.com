@@ -695,3 +695,97 @@ body {
   position: absolute;
   z-index: 1 !important;
 }
+
+
+#webring {
+    display: inline-block;
+    width: 50px;
+    position: absolute;
+    top: 97%;
+    left: 97%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#webring img {
+  width: 50px;
+}
+
+
+
+#baramobil { 
+ display: none:
+}
+
+#baramobil p {
+  display: none;
+}
+
+
+/* MOBILE / TABLET */
+
+
+@media (hover: none) {
+  
+  #desktop {
+    display:none;
+  }
+  
+  #baramobil, #baramobil p {
+    display: block;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    color: #F95738;
+    font-family: input-sans, sans-serif; 
+    font-size: 20px;
+  }
+
+  #baramobil p {
+    text-align: center;
+    margin: auto;
+    position: absolute; 
+    top: 40%;
+  }
+  
+}
+
+
+/* MINDRE DESKTOP */ 
+
+
+@media screen and (max-width: 750px) {
+  
+  
+  .dokumentwindow {
+    width: 400px;
+  }
+  
+  #aboutdokument {
+    width: 400px;
+    height: 300px;
+  }
+  
+  #therightdocument {
+  width: 400px;
+  }
+  
+  #therightdocument p {
+    margin-top: 220px;
+  }
+  
+  .dokumentwindow p {
+    font-size: 15px;
+  }
+  
+  #aboutdokument p {
+    width: 300px;
+    margin-top: 50px;
+}
+  
+  .window {
+    height: 360px;
+    width: 500px;
+  }
+  
+}
